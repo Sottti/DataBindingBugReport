@@ -10,6 +10,9 @@
 
 	</data>
 
+	<!--The only place where this preview works is in this layout file (my_data_binding_layout)-->
+	<!--But it doesn't work on MyCustomViewWithDataBinding.kt or in activity_main.xml-->
+
 	<merge
 		tools:layout_height="wrap_content"
 		tools:layout_width="match_parent"

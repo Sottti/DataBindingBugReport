@@ -13,6 +13,7 @@ class MyCustomViewWithDataBinding @JvmOverloads constructor(
 	defStyleRes: Int = 0
 ) : ConstraintLayout(context, attrs, defStyleAttr, defStyleRes) {
 
+	/*The preview on this class (the new righ panel) doesn't show anything*/
 	private val viewBinding = MyDataBindingLayoutBinding
 		.inflate(LayoutInflater.from(context), this, true)
 
